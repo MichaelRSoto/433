@@ -3488,12 +3488,6 @@ input::-webkit-input-placeholder {
 		z-index: 21;
 	}
 
-	/* Make sure the logo scales responsively */
-	.responsive-logo {
-		max-width: 100%;
-		height: auto;
-  		}
-
 		#banner:before {
 			content: '';
 			display: inline-block;
@@ -3518,9 +3512,9 @@ input::-webkit-input-placeholder {
 
 		#banner .content {
 			display: inline-block;
-			margin-right: 0%;
-			max-width: 100%;
-			padding: 0em;
+			margin-right: 1%;
+			max-width: 95%;
+			padding: 6em;
 			position: relative;
 			text-align: right;
 			vertical-align: middle;
